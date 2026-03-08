@@ -28,3 +28,5 @@ Shopping_list[3]='Notebook'
 Shopping_list
 del(Shopping_list[4])
 Shopping_list
+
+
