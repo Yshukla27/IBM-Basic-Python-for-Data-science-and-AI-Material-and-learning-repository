@@ -42,13 +42,49 @@ g.find('snow')
 g.replace('Mary','Bob')
 import re
 s3 = "House number- 1105"
-# Write your code below and press Shift+Enter to execute
-# Use the search() function to search for the "\d" in the string
+
 result = re.search(r"\d", s3)
 
 # Check if a match was found
 if result:
+
+
+
+    
     print("Digit found")
 else:
     print("Digit not found.")
 len("The BodyGuard")
+
+## Practice codes.
+
+a = "Sup chat, Im admin, this is me code"
+print(a.upper())
+print(a.lower())
+print(len(a))
+print(a.split())
+
+a = "python"
+print(a[0:3])
+
+
+x=int(input("Please Enter your age:")) 
+y=int(input("Please Enter the current year:")) 
+age = y-x 
+age2= x*365 
+age3= age2*86400 
+print(f"You were born in: {age}\n You have lived a total days:{age2} and a total this many seconds in this dod gamn planet:{age3}")
+
+
+a = "Sup bud, Im yash, this is me code"
+print(a.split())
+print(a.replace('yash','****'))
+
+word=str(input("Enter the string:")).lower()
+if word==word[::-1]:
+    print("Palindrome true")
+else:
+    print("Palindrome False")
+
+
+
